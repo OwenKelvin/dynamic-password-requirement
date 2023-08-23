@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+
+<form [formGroup]='resetPwdForm'>
+  <input formControlName='newpwdctrlname'>
+</form>
+
+<h1>{{ resetPwdForm.get('newpwdctrlname').status }}</h1>
